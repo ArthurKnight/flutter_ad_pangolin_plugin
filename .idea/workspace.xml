@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69a1e289-c17a-4105-997e-40a0d7ef5a11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_GDPRBack@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_GDPRBack@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_adStar@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_adStar@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_adStarEmpty@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_adStarEmpty@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_back_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomPause@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomPause@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomPlay@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomPlay@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomShadow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_bottomShadow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_dislike@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_dislike@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_endCardClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_endCardClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fastBackward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fastBackward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fastForward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fastForward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fullClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fullClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fullScreen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_fullScreen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_leftback@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_leftback@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logoAd@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logoAd@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo_reward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo_reward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo_splash@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_logo_splash@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_nativeVideo_left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_nativeVideo_left@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_nextCell@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_nextCell@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_pause@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_pause@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_play@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_play@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_playable_loading@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_playable_loading@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_replay@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_replay@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_shrinkScreen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_shrinkScreen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_sliderDot@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_sliderDot@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_topShadow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_topShadow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_video_close@2x.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_video_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_video_leftback@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_video_leftback@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_voice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_voice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_voice_silent@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/bu_voice_silent@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/en.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/ja.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/ko.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.bundle/zh-Hans.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/BUAdSDK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSDK.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSDKDefines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSDKError.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSDKManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSDKPlayableToolManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUAdSlot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUBannerAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUDislike.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUDislikeWords.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUFullscreenVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUImage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUInterstitialAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUMaterialMeta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeAdRelatedView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeAdsManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressAdManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressBannerView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressFullscreenVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressInterstitialAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressRewardedVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUNativeExpressSplashView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUPlayerPublicDefine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BURewardedVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BURewardedVideoModel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUSize.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUSplashAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Headers/BUVideoAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/BUAdSDK.framework/Modules/module.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_GDPRBack@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_GDPRBack@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_adStar@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_adStar@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_adStarEmpty@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_adStarEmpty@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_back_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomPause@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomPause@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomPlay@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomPlay@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomShadow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_bottomShadow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_dislike@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_dislike@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_endCardClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_endCardClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fastBackward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fastBackward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fastForward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fastForward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fullClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fullClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fullScreen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_fullScreen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_leftback@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_leftback@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logoAd@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logoAd@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo_reward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo_reward@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo_splash@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_logo_splash@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_nativeVideo_left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_nativeVideo_left@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_nextCell@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_nextCell@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_pause@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_pause@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_play@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_play@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_playable_loading@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_playable_loading@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_replay@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_replay@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_shrinkScreen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_shrinkScreen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_sliderDot@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_sliderDot@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_topShadow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_topShadow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_video_close@2x.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_video_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_video_leftback@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_video_leftback@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_voice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_voice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_voice_silent@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/bu_voice_silent@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/en.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/ja.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/ko.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.bundle/zh-Hans.lproj/BULanguage.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/BUAdSDK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSDK.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSDKDefines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSDKError.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSDKManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSDKPlayableToolManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUAdSlot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUBannerAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUDislike.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUDislikeWords.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUFullscreenVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUImage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUInterstitialAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUMaterialMeta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeAdRelatedView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeAdsManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressAdManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressBannerView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressFullscreenVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressInterstitialAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressRewardedVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUNativeExpressSplashView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUPlayerPublicDefine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BURewardedVideoAd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BURewardedVideoModel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUSize.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUSplashAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Headers/BUVideoAdView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/BUAdSDK.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/ios/Classes/PangolinPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/ios/Classes/PangolinPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/ios/Classes/PangolinPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/ios/Classes/PangolinPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/lib/pangolin_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/lib/pangolin_main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/lib/pangolin_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/lib/pangolin_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pangolin_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pangolin_main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pangolin_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pangolin_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zpss1lti5NrD8ewFbQkIuqUfdq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ios/Classes" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios/Classes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69a1e289-c17a-4105-997e-40a0d7ef5a11" name="Default Changelist" comment="" />
+      <created>1585547572705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585547572705</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ios/Classes/PangolinPlugin.m</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/pangolin_main.dart</url>
+          <line>89</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/pangolin_response.dart</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>77</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/pangolin_main.dart</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/pangolin_main.dart</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.tongyangsheng.pangolin">
+    <application>
+        <activity android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".RewardVideoActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+    </application>
+</manifest>
