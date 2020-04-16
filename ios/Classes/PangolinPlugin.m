@@ -134,7 +134,7 @@ FlutterEventChannel* _eventChannel;
     printf("激励视频渲染完成展示");
     _eventSink(@{
         @"event":@"rewardVideoRenderSuccess",
-        @"value":1}
+        @"value":@"1"}
     );
 }
 
