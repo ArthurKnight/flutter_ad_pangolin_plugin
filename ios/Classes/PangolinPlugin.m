@@ -131,10 +131,10 @@ FlutterEventChannel* _eventChannel;
 //激励视频渲染完成展示
 - (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
     [self.rewardedAd showAdFromRootViewController: [self theTopViewController]];
-    printf("已看完激励视频，用户点击关闭");
+    printf("激励视频渲染完成展示");
     _eventSink(@{
         @"event":@"rewardVideoRenderSuccess",
-        @"value":self.rewardedAd.rewardedVideoModel.rewardName}
+        @"value":1}
     );
 }
 
@@ -164,7 +164,7 @@ FlutterEventChannel* _eventChannel;
     printf("已看完激励视频，用户点击关闭");
     _eventSink(@{
         @"event":@"rewardVideoClose",
-        @"value":@"1"}
+        @"value":self.rewardedAd.rewardedVideoModel.rewardName}
     );
 }
 
