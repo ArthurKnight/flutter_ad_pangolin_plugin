@@ -77,11 +77,13 @@ Future<bool> loadSplashAd(
 Future loadRewardAd(
     {@required bool isHorizontal,
     @required String slotId,
+    @required String rewardName,
     @required bool debug}) async {
   return await _channel.invokeMethod("loadRewardAd", {
     "isHorizontal": isHorizontal,
     "slotId": slotId,
     "userId": "1000",
+    "rewardName":rewardName,
     "debug": debug
   });
 }

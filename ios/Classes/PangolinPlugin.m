@@ -86,10 +86,12 @@ FlutterEventChannel* _eventChannel;
     {
         NSString* slotId = call.arguments[@"slotId"];
         NSString* userId = call.arguments[@"userId"];
+        NSString* rewardName = call.arguments[@"rewardName"];
         
         BURewardedVideoModel *model = [[BURewardedVideoModel alloc] init];
-        model.userId = @"123";
-        
+        model.userId = userId;
+        model.rewardName = rewardName;
+    
         //self.rewardedVideoAd = [[BURewardedVideoAd alloc] initWithSlotID:@"945133267" rewardedVideoModel:model];
         //self.rewardedVideoAd.delegate = self;
         //[self.rewardedVideoAd loadAdData];
@@ -132,7 +134,7 @@ FlutterEventChannel* _eventChannel;
     printf("已看完激励视频，用户点击关闭");
     _eventSink(@{
         @"event":@"rewardVideoRenderSuccess",
-        @"value":@"1"}
+        @"value":self.rewardedAd.rewardedVideoModel.rewardName}
     );
 }
 

@@ -88,7 +88,7 @@ class _MyAppState extends State<MyApp> {
   _loadRewardAd() async {
     var result = await Pangolin.loadRewardAd(
         //isHorizontal: false, slotId: "945133267", debug: true);
-        isHorizontal: false, slotId: "945134382", debug: true);
+        isHorizontal: false, slotId: "945134382",rewardName: "getOneBottle", debug: true);
     print("加载完成");
   }
 
