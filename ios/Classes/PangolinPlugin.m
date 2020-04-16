@@ -94,20 +94,11 @@ FlutterEventChannel* _eventChannel;
         //self.rewardedVideoAd.delegate = self;
         //[self.rewardedVideoAd loadAdData];
         
-        slotId = @"945133267";
+        //slotId = @"945133267";
         self.rewardedAd = [[BUNativeExpressRewardedVideoAd alloc] initWithSlotID:slotId rewardedVideoModel:model];
         self.rewardedAd.delegate = self;
-        //[self.rewardedAd loadAdData];
-        _eventSink(@{
-            @"event":@"rewardVideoClose",
-            @"value":@"1"}
-        );
-        
-        
-        //__weak typeof(self) weakself = self;
-        //__strong typeof(self) strongself = weakself;
-        //[strongself showRewardVideoAd];
-        
+        [self.rewardedAd loadAdData];
+        result(@YES);
 //        FlutterEventSink eventSink = pangolinEvent.eventSink;
 //        if(eventSink){
 //            eventSink(@{
@@ -135,9 +126,14 @@ FlutterEventChannel* _eventChannel;
 //    }
 //}
 
-//激励视频播放完成
+//激励视频渲染完成展示
 - (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
     [self.rewardedAd showAdFromRootViewController: [self theTopViewController]];
+    printf("已看完激励视频，用户点击关闭");
+    _eventSink(@{
+        @"event":@"rewardVideoRenderSuccess",
+        @"value":@"1"}
+    );
 }
 
 //展示视频用
@@ -163,7 +159,7 @@ FlutterEventChannel* _eventChannel;
 
 //激励视频关闭
 - (void)nativeExpressRewardedVideoAdDidClose:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
-    printf("激励视频关闭");
+    printf("已看完激励视频，用户点击关闭");
     _eventSink(@{
         @"event":@"rewardVideoClose",
         @"value":@"1"}

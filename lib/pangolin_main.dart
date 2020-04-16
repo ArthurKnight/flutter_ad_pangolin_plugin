@@ -36,6 +36,11 @@ void eventListener(dynamic event) {
       print("收到rewardVideoClose data:$value");
       _eventController.add(map);
       break;
+    case 'rewardVideoRenderSuccess':
+      String value = map['value'];
+      print("rewardVideoRenderSuccess data:$value");
+      _eventController.add(map);
+      break;
   }
 }
 
