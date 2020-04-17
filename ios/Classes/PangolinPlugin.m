@@ -1,9 +1,7 @@
 #import "PangolinPlugin.h"
 #import <BUAdSDK/BUAdSDK.h>
-//#import "PangolinPluginEvent.h"
 
 @interface PangolinPlugin ()<BUNativeExpressRewardedVideoAdDelegate,BUSplashAdDelegate>
-//@interface PangolinPlugin ()
 @property (nonatomic, assign) CFTimeInterval startTime;
 @property (nonatomic, strong) UITextField *playableUrlTextView;
 @property (nonatomic, strong) UITextField *downloadUrlTextView;
@@ -22,8 +20,6 @@
 
 FlutterEventSink _eventSink;
 FlutterEventChannel* _eventChannel;
-//事件处理
-//PangolinPluginEvent * pangolinEvent;
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     
@@ -32,9 +28,6 @@ FlutterEventChannel* _eventChannel;
     //PangolinPlugin* instance = [[PangolinPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
     
-//    pangolinEvent = [[PangolinPluginEvent alloc] init];
-//    pangolinEvent.eventChannel = [FlutterEventChannel eventChannelWithName:@"com.luoyang.ad.pangolin.event" binaryMessenger:[registrar messenger]];
-//    [pangolinEvent.eventChannel setStreamHandler:pangolinEvent];
 }
 
 - (instancetype)initWithChannel:(FlutterMethodChannel *)channel
@@ -46,11 +39,6 @@ FlutterEventChannel* _eventChannel;
                                 binaryMessenger:messenger];
     [_eventChannel setStreamHandler:self];
 
-//    pangolinEvent
-//    pangolinEvent = [FlutterEventChannel
-//                                    eventChannelWithName:@"com.luoyang.ad.pangolin.event"
-//                                    binaryMessenger:messenger];
-//        [pangolinEvent setStreamHandler:pangolinEvent];
     return self;
 }
 
@@ -81,6 +69,12 @@ FlutterEventChannel* _eventChannel;
     {
         NSString* slotId = call.arguments[@"slotId"];
         [self loadSplashAD : slotId];
+        result(@YES);
+    }
+    else if([@"removeSplashView" isEqualToString:call.method])
+    {
+        [[UIApplication sharedApplication].windows.firstObject removeFromSuperview];
+        result(@YES);
     }
     else if([@"loadRewardAd" isEqualToString:call.method])
     {
@@ -92,22 +86,10 @@ FlutterEventChannel* _eventChannel;
         model.userId = userId;
         model.rewardName = rewardName;
     
-        //self.rewardedVideoAd = [[BURewardedVideoAd alloc] initWithSlotID:@"945133267" rewardedVideoModel:model];
-        //self.rewardedVideoAd.delegate = self;
-        //[self.rewardedVideoAd loadAdData];
-        
-        //slotId = @"945133267";
         self.rewardedAd = [[BUNativeExpressRewardedVideoAd alloc] initWithSlotID:slotId rewardedVideoModel:model];
         self.rewardedAd.delegate = self;
         [self.rewardedAd loadAdData];
         result(@YES);
-//        FlutterEventSink eventSink = pangolinEvent.eventSink;
-//        if(eventSink){
-//            eventSink(@{
-//                @"event":@"demoEvent",
-//                @"value":@"ok",
-//                      });
-//        }
     }
     else
     {
@@ -128,18 +110,10 @@ FlutterEventChannel* _eventChannel;
 //    }
 //}
 
-//激励视频渲染完成展示
-- (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
-    [self.rewardedAd showAdFromRootViewController: [self theTopViewController]];
-    printf("激励视频渲染完成展示");
-    _eventSink(@{
-        @"event":@"rewardVideoRenderSuccess",
-        @"value":@"1"}
-    );
-}
+
 
 //展示视频用
-- (UIViewController *)theTopViewController{
+- (UIViewController *)rootViewController{
     UIViewController *rootVC = [[UIApplication sharedApplication].delegate window].rootViewController;
     
     UIViewController *parent = rootVC;
@@ -154,9 +128,20 @@ FlutterEventChannel* _eventChannel;
     return rootVC;
 }
 
+//激励视频渲染完成并展示
+- (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
+    printf("激励视频渲染完成并展示视频");
+    [self.rewardedAd showAdFromRootViewController: [self rootViewController]];
+    //事件通知
+    _eventSink(@{
+        @"event":@"rewardVideoRenderSuccess",
+        @"value":@"1"}
+    );
+}
+
 //激励视频播放完成
 - (void)nativeExpressRewardedVideoAdDidPlayFinish:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *_Nullable)error {
-    printf(__func__);
+    printf("激励视频播放完成");
 }
 
 //激励视频关闭
@@ -169,22 +154,60 @@ FlutterEventChannel* _eventChannel;
 }
 
 
+
 //加载开屏广告
-- (BOOL)loadSplashAD:(NSString *)slotId {
+- (void)loadSplashAD:(NSString *)slotId {
     CGRect frame = [UIScreen mainScreen].bounds;
     BUSplashAdView *splashView = [[BUSplashAdView alloc] initWithSlotID:slotId frame:frame];
+    
+    //穿山甲默认开屏广告超时时间为3秒，可通过tolerateTimeout设置
+    //splashView.tolerateTimeout =3;
     splashView.delegate = self;
     
     UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
+    self.startTime = CACurrentMediaTime();
     [splashView loadAdData];
     [keyWindow.rootViewController.view addSubview:splashView];
     splashView.rootViewController = keyWindow.rootViewController;
-    return YES;
 }
 
-//点击关闭
+//开屏广告点击关闭
 - (void) splashAdDidClose:(BUSplashAdView *)splashAd{
     [splashAd removeFromSuperview];
+    NSLog(@"开屏广告点击关闭 移除view");
+    CFTimeInterval endTime = CACurrentMediaTime();
+    NSLog(@"Total Runtime: %g s \n",endTime - self.startTime);
+    
+    _eventSink(@{
+        @"event":@"splashAdDidClose",
+        @"value":@"1"}
+    );
+}
+
+//开屏广告报错
+- (void)splashAd:(BUSplashAdView *)splashAd didFailWithError:(NSError *)error {
+    printf("开屏广告报错 移除view");
+    [splashAd removeFromSuperview];
+    CFTimeInterval endTime = CACurrentMediaTime();
+    double totalTime = endTime - self.startTime;
+    NSLog(@"Total Runtime: %g s error=%@\n", totalTime, error);
+    
+    _eventSink(@{
+        @"event":@"splashAdDidFailWithError",
+        @"value":@"1"}
+    );
+}
+
+//开屏广告隐藏
+- (void)splashAdWillVisible:(BUSplashAdView *)splashAd {
+    CFTimeInterval endTime = CACurrentMediaTime();
+    double totalTime = endTime - self.startTime;
+    printf("Total Showtime: %g s", totalTime);
+    
+    _eventSink(@{
+        @"event":@"splashAdWillVisible",
+        @"value":@"1"}
+    );
 }
 
 

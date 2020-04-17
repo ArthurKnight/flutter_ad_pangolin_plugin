@@ -68,10 +68,17 @@ Future<bool> registerPangolin(
   });
 }
 
-Future<bool> loadSplashAd(
+Future<void> loadSplashAd(
     {@required String slotId, @required bool debug}) async {
-  return await _channel
+  await _channel
       .invokeMethod("loadSplashAd", {"slotId": slotId, "debug": debug});
+  return;
+}
+
+Future<void> removeSplashView(
+    {@required bool debug}) async {
+  return await _channel
+      .invokeMethod("removeSplashView", {"debug": debug});
 }
 
 Future loadRewardAd(
