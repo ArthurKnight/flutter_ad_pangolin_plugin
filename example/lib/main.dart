@@ -4,6 +4,8 @@ import 'dart:async';
 
 import 'package:pangolin/pangolin.dart' as Pangolin;
 
+import 'index_page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
@@ -12,6 +14,22 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Home(),
+    );
+  }
+
+}
+
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
   String _platformVersion = 'Unknown';
 
   @override
@@ -66,13 +84,13 @@ class _MyAppState extends State<MyApp> {
 //  true
   _initPangolin() async {
     await Pangolin.registerPangolin(
-            appId: "5059983",
-            useTextureView: true,
-            appName: "Bottle_test",
-            allowShowNotify: true,
-            allowShowPageWhenScreenLock: true,
-            debug: true,
-            supportMultiProcess: true);
+        appId: "5059983",
+        useTextureView: true,
+        appName: "Bottle_test",
+        allowShowNotify: true,
+        allowShowPageWhenScreenLock: true,
+        debug: true,
+        supportMultiProcess: true);
     Pangolin.initEvent();
     Pangolin.eventController.listen((res){
       print(res);
@@ -82,34 +100,43 @@ class _MyAppState extends State<MyApp> {
   }
 
   _loadSplashAd() async {
-    Pangolin.loadSplashAd(slotId: "887315461", debug: true);
+    Pangolin.loadSplashAd(slotId: "887315461", debug: true).timeout(Duration(seconds: 5),onTimeout: (){
+      print("加载开屏超时");
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return IndexPage();
+      }));
+    }).catchError((e){
+      print("catch error $e");
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return IndexPage();
+      }));
+    });
   }
 
   _loadRewardAd() async {
     var result = await Pangolin.loadRewardAd(
-        //isHorizontal: false, slotId: "945133267", debug: true);
+      //isHorizontal: false, slotId: "945133267", debug: true);
         isHorizontal: false, slotId: "945134382",rewardName: "getOneBottle", debug: true);
     print("加载完成");
   }
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
-          child: Center(
-            child: RaisedButton(
-              onPressed: () {
-                _loadRewardAd();
-              },
-              child: Text("加载激励视频"),
-            ),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Plugin example app'),
+      ),
+      body: Center(
+        child: Center(
+          child: RaisedButton(
+            onPressed: () {
+              _loadRewardAd();
+            },
+            child: Text("加载激励视频"),
           ),
         ),
       ),
     );
   }
 }
+
