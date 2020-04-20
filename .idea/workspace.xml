@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a1e289-c17a-4105-997e-40a0d7ef5a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabel.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelFactory.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelPlugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelPlugin.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelRegistran.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelRegistran.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/index_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/index_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pangolin_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pangolin_main.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

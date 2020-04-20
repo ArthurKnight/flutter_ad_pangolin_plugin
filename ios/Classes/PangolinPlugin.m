@@ -1,7 +1,7 @@
 #import "PangolinPlugin.h"
 #import <BUAdSDK/BUAdSDK.h>
 #import "BUDMacros.h"
-#import "FlutterIosTextLabelFactory.h"
+//#import "FlutterIosTextLabelFactory.h"
 
 @interface PangolinPlugin ()<BUNativeExpressRewardedVideoAdDelegate,BUSplashAdDelegate,
 BUNativeAdsManagerDelegate,BUVideoAdViewDelegate,BUNativeAdDelegate,
@@ -56,7 +56,7 @@ FlutterEventChannel* _eventChannel;
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     //注册原生view=》flutter_express_ad_view
-    [registrar registerViewFactory:[[FlutterIosTextLabelFactory alloc] initWithMessenger:registrar.messenger] withId:@"flutter_express_ad_view"];
+    //[registrar registerViewFactory:[[FlutterIosTextLabelFactory alloc] initWithMessenger:registrar.messenger] withId:@"flutter_express_ad_view"];
     
     FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"com.luoyang.ad.pangolin" binaryMessenger:[registrar messenger]];
     PangolinPlugin* instance = [[PangolinPlugin alloc] initWithChannel:channel registrar:registrar messenger:[registrar messenger]];
