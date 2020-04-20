@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'dart:async';
 
@@ -96,7 +99,7 @@ class _HomeState extends State<Home> {
       print(res);
     });
     print("注册结果true");
-    _loadSplashAd();
+    //_loadSplashAd();
   }
 
   _loadSplashAd() async {
@@ -127,15 +130,71 @@ class _HomeState extends State<Home> {
         title: const Text('Plugin example app'),
       ),
       body: Center(
-        child: Center(
-          child: RaisedButton(
-            onPressed: () {
-              _loadRewardAd();
-            },
-            child: Text("加载激励视频"),
-          ),
+        child: Column(
+          children: <Widget>[
+            Center(
+              child: RaisedButton(
+                onPressed: () {
+                  _loadRewardAd();
+                },
+                child: Text("加载激励视频"),
+              ),
+            ),
+            RaisedButton(
+              onPressed: () {
+                Pangolin.loadExpressAd(slotId: "945141670");
+              },
+              child: Text("加载原生广告"),
+            ),
+            RaisedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return IndexPage();
+                }));
+              },
+              child: Text("加载信息流"),
+            ),
+            /*RaisedButton(
+              onPressed: (){
+                Pangolin.loadFullscreenVideoAdWithSlotID(slotId: "945142947");
+              },
+              child: Text("加载全屏视频"),
+            ),
+            RaisedButton(
+              onPressed: () {
+                Pangolin.showFullscreenVideoAd();
+              },
+              child: Text("展示全屏视频"),
+            ),*/
+            RaisedButton(
+              onPressed: (){
+                Pangolin.loadFullscreenVideoAdWithSlotID(slotId: "945142947");
+              },
+              child: Text("加载并展示全屏视频"),
+            ),
+            /*RaisedButton(
+              onPressed: () {
+                Pangolin.loadInterstitialWithSlotID(slotId: "945143188");
+              },
+              child: Text("加载插屏广告"),
+            ),
+            RaisedButton(
+              onPressed: () {
+                Pangolin.showInterstitial();
+              },
+              child: Text("展示全屏视频"),
+            ),*/
+            RaisedButton(
+              onPressed: (){
+                Pangolin.loadInterstitialWithSlotID(slotId: "945143188");
+              },
+              child: Text("加载并展示插屏广告"),
+            ),
+
+
+          ],
         ),
-      ),
+      )
     );
   }
 }

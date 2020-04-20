@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>io.flutter.embedded_views_preview</key>
+	<string>true</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>a</string>
+	<string>Can I haz location always?</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>b</string>
+	<string>Always and when in use!</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -50,19 +52,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	
 	<key>NSAppleMusicUsageDescription</key>
 	<string>Music!</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>Calendars</string>
 	<key>NSCameraUsageDescription</key>
-	<string>请点击"好"以允许访问。若不允许，你将无法使用拍照功能</string>
+	<string>请点击&quot;好&quot;以允许访问。若不允许，你将无法使用拍照功能</string>
 	<key>NSContactsUsageDescription</key>
 	<string>contacts</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Always and when in use!</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Can I haz location always?</string>
 	<key>NSLocationUsageDescription</key>
 	<string>Older devices need location.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -70,7 +67,7 @@
 	<key>NSMotionUsageDescription</key>
 	<string>motion</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>请点击"好"以允许访问。若不允许，你将无法发送使用本地相册获取图片</string>
+	<string>请点击&quot;好&quot;以允许访问。若不允许，你将无法发送使用本地相册获取图片</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>reminders</string>
 	<key>NSSpeechRecognitionUsageDescription</key>

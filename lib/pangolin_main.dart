@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:pangolin/pangolin.dart';
 
-
 //MethodChannel _channel;// = MethodChannel('com.luoyang.ad.pangolin')..setMethodCallHandler(_methodHandler);
 //StreamController<BasePangolinResponse> _pangolinResponseEventHandlerController =
 //    new StreamController.broadcast();
@@ -15,7 +14,8 @@ import 'package:pangolin/pangolin.dart';
 
 MethodChannel _channel = MethodChannel('com.luoyang.ad.pangolin');
 
-StreamController<Map<dynamic, dynamic>> _eventController = StreamController.broadcast();
+StreamController<Map<dynamic, dynamic>> _eventController =
+    StreamController.broadcast();
 
 Stream<Map<dynamic, dynamic>> get eventController => _eventController.stream;
 
@@ -75,10 +75,8 @@ Future<void> loadSplashAd(
   return;
 }
 
-Future<void> removeSplashView(
-    {@required bool debug}) async {
-  return await _channel
-      .invokeMethod("removeSplashView", {"debug": debug});
+Future<void> removeSplashView({@required bool debug}) async {
+  return await _channel.invokeMethod("removeSplashView", {"debug": debug});
 }
 
 Future loadRewardAd(
@@ -90,11 +88,19 @@ Future loadRewardAd(
     "isHorizontal": isHorizontal,
     "slotId": slotId,
     "userId": "1000",
-    "rewardName":rewardName,
+    "rewardName": rewardName,
     "debug": debug
   });
 }
 
+Future loadNativeAd({@required String slotId, @required int loadCount}) async {
+  return await _channel
+      .invokeMethod("loadNativeAd", {"slotId": slotId, "loadCount": loadCount});
+}
+
+Future loadExpressAd({@required String slotId}) async {
+  return await _channel.invokeMethod("loadExpressAd", {"slotId": slotId});
+}
 //Future _methodHandler(MethodCall methodCall) {
 //  var response =
 //      BasePangolinResponse.create(methodCall.method, methodCall.arguments);
@@ -103,3 +109,21 @@ Future loadRewardAd(
 //}
 
 //enum EventType { rewardVideoClose }
+
+Future loadFullscreenVideoAdWithSlotID({@required String slotId}) async {
+  return await _channel
+      .invokeMethod("loadFullscreenVideoAdWithSlotID", {"slotId": slotId});
+}
+
+//Future showFullscreenVideoAd() async {
+//  return await _channel.invokeMethod("showFullscreenVideoAd", {});
+//}
+
+Future loadInterstitialWithSlotID({@required String slotId}) async {
+  return await _channel
+      .invokeMethod("loadInterstitialWithSlotID", {"slotId": slotId});
+}
+
+//Future showInterstitial() async {
+//  return await _channel.invokeMethod("showInterstitial", {});
+//}
