@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.flutter.app.FlutterActivity;
+import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.MethodChannel;
 
 
@@ -32,6 +33,8 @@ public class RewardVideoActivity extends FlutterActivity {
     private boolean debug = true;
 
     static MethodChannel _channel;
+
+    static EventChannel.EventSink eventSink;
 
     @SuppressWarnings("RedundantCast")
     @Override
@@ -217,6 +220,11 @@ public class RewardVideoActivity extends FlutterActivity {
                         rewardVideoCallBack.put("rewardAmount",rewardAmount);
                         rewardVideoCallBack.put("rewardName",rewardName);
                         _channel.invokeMethod("onRewardResponse",rewardVideoCallBack);
+
+                        Map<String,Object> data = new HashMap<>();
+                        data.put("event","rewardVideoRenderSuccess");
+                        data.put("value","1");
+                        eventSink.success(data);
                     }
 
                     @Override

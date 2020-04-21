@@ -191,7 +191,12 @@ class _HomeState extends State<Home> {
               child: Text("加载并展示插屏广告"),
             ),
 
-
+            RaisedButton(
+              onPressed: (){
+                Pangolin.loadSplashAd(slotId: "887315461");
+              },
+              child: Text("加载并展示开屏广告"),
+            ),
           ],
         ),
       )
