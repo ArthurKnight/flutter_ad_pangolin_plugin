@@ -127,7 +127,9 @@ FlutterEventChannel* _eventChannel;
     else if([@"loadNativeAd" isEqualToString:call.method])
     {
         NSString* slotId = call.arguments[@"slotId"];
-        [self loadNativeAds:slotId loadCount:1];
+        NSString* loadCountStr = call.arguments[@"loadCount"];
+        NSInteger loadCount = [loadCountStr integerValue];
+        [self loadNativeAds:slotId loadCount:loadCount];
         result(@YES);
     }
     else if([@"loadExpressAd" isEqualToString:call.method])
