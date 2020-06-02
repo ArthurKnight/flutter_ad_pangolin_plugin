@@ -148,14 +148,14 @@ class _HomeState extends State<Home> {
             ),
             RaisedButton(
               onPressed: () {
-//                Navigator.push(context, MaterialPageRoute(builder: (context) {
-//                  return IndexPage();
-//                }));
-                  var data = Pangolin.loadNativeAd(
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return IndexPage();
+                }));
+                  /*var data = Pangolin.loadNativeAd(
                     slotId: "945141670",
                     loadCount: 2
                   );
-                  print(data);
+                  print(data);*/
               },
               child: Text("加载原生信息流数据"),
             ),

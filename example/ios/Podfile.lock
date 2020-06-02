@@ -1,5 +1,5 @@
 PODS:
-  - Bytedance-UnionAD (2.9.0.3)
+  - Bytedance-UnionAD (2.9.5.8)
   - Flutter (1.0.0)
   - pangolin (0.0.1):
     - Bytedance-UnionAD
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
-  Bytedance-UnionAD: 68d6621374dfdc98f7e8c8597bce02dec80344e3
+  Bytedance-UnionAD: af6f65144b4fce6329946e89f262ffc8c6c1937c
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   pangolin: f03509798fb55983f3c907db0d22425dac2113b9
   permission_handler: 4a985b5448897c27fdeadde84f7452520c0e6c58

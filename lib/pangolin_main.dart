@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pangolin/pangolin.dart';
 
@@ -37,6 +38,11 @@ void eventListener(dynamic event) {
       _eventController.add(map);
       break;
     case 'rewardVideoRenderSuccess':
+      String value = map['value'];
+      print("rewardVideoRenderSuccess data:$value");
+      _eventController.add(map);
+      break;
+    case 'expressAdRenderSuccess':
       String value = map['value'];
       print("rewardVideoRenderSuccess data:$value");
       _eventController.add(map);
@@ -98,7 +104,7 @@ Future loadNativeAd({@required String slotId, @required int loadCount}) async {
       .invokeMethod("loadNativeAd", {"slotId": slotId, "loadCount": loadCount});
 }
 
-Future loadExpressAd({@required String slotId}) async {
+Future<bool> loadExpressAd({@required String slotId}) async {
   return await _channel.invokeMethod("loadExpressAd", {"slotId": slotId});
 }
 //Future _methodHandler(MethodCall methodCall) {
@@ -127,3 +133,43 @@ Future loadInterstitialWithSlotID({@required String slotId}) async {
 //Future showInterstitial() async {
 //  return await _channel.invokeMethod("showInterstitial", {});
 //}
+
+
+class ExpressAdView extends StatefulWidget {
+
+  final String slotId;
+
+  ExpressAdView({this.slotId});
+
+  @override
+  _ExpressAdViewState createState() => _ExpressAdViewState();
+}
+
+class _ExpressAdViewState extends State<ExpressAdView> {
+
+  bool loadFinish=false;
+
+  @override
+  void initState() {
+    super.initState();
+    loadExpressAd(slotId: widget.slotId);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if(Platform.isIOS) {
+      return loadFinish?
+      UiKitView(
+        viewType: "ExpressAdView",
+        creationParams: <String,dynamic>{
+          "sloidId":widget.slotId,
+        },
+        creationParamsCodec: const StandardMessageCodec(),
+      ):Container();
+    }else if(Platform.isAndroid){
+      return Container();
+    }else{
+      return Container();
+    }
+  }
+}

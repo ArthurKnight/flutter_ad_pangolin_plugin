@@ -4,7 +4,7 @@
 //NS_ASSUME_NONNULL_BEGIN
 //
 ////实现协议FlutterPlatformView
-//@interface FlutterIosTextLabel :  NSObject<FlutterPlatformView>
+//@interface IOSExpressAdView :  NSObject<FlutterPlatformView>
 //
 //-(instancetype)initWithWithFrame:(CGRect)frame
 //                  viewIdentifier:(int64_t)viewId
