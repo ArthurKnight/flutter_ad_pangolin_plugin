@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a1e289-c17a-4105-997e-40a0d7ef5a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ios/Classes/IOSExpressAdView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/IOSExpressAdViewFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/IOSExpressAdViewFactory.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabel.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/IOSExpressAdView.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterIosTextLabelFactory.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pangolin_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pangolin_main.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
