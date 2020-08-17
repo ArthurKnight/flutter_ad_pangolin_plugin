@@ -2,7 +2,7 @@ PODS:
   - Bytedance-UnionAD (2.9.5.8)
   - Flutter (1.0.0)
   - pangolin (0.0.1):
-    - Bytedance-UnionAD
+    - Bytedance-UnionAD (= 2.9.5.8)
     - Flutter
   - "permission_handler (5.0.0+hotfix.3)":
     - Flutter
@@ -27,9 +27,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Bytedance-UnionAD: af6f65144b4fce6329946e89f262ffc8c6c1937c
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  pangolin: f03509798fb55983f3c907db0d22425dac2113b9
+  pangolin: 8a5ad0a4d9642d3942453a248171ad0d26c1f48e
   permission_handler: 4a985b5448897c27fdeadde84f7452520c0e6c58
 
-PODFILE CHECKSUM: 9f691a4f94aaf9cc04a90802de356a87ab32f4da
+PODFILE CHECKSUM: b60657fe0948772f9aaa48dda2ad2bb46fecdbb9
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

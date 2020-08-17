@@ -37,7 +37,7 @@ target 'Runner' do
   # Flutter Pod
 
   #pod 'Bytedance-UnionAD'
-  #pod 'Bytedance-UnionAD', '~> 2.9.0.5'
+  #pod 'Bytedance-UnionAD',:git=>'https://github.com.cnpmjs.org/bytedance/Bytedance-UnionAD.git'#,'2.9.5.8'
 
   copied_flutter_dir = File.join(__dir__, 'Flutter')
   copied_framework_path = File.join(copied_flutter_dir, 'Flutter.framework')
